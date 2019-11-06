@@ -1,0 +1,112 @@
+body{
+    background: #d1dffa;
+}
+.wraper{
+	width: 850px;
+	background: #eee;
+	margin: 40px auto 0 auto;
+	border: 2px black solid;
+    height: auto;
+}
+.heading{
+	height: 100px;
+	background: #b3d9ff;
+	padding: 40px;
+	text-align: center;
+	
+}
+.content{
+	height: auto;
+	background: #f2f2f2;
+	width:850px;
+}
+.footer{
+	clear:both;
+	background:	#8c8c8c;
+	height:40px;
+	color: white;
+	text-align:center;
+	padding:10px;
+	
+}
+#logo{
+	position: relative
+}
+.text1{
+	text-align:center;
+	margin-top: 20px;
+	color:red;
+}
+.form1{
+	margin-top:60px;
+}
+.sidebar{
+    height: 325px;
+    width: 160px;
+	float: left;
+	background:lightblue;
+	margin-top:10px;
+	text-align: center;
+}
+
+.box{
+	width: auto;
+    padding: 10px;
+    margin: 12px auto auto 20px;
+	float: left;
+	height: auto;
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#inform{
+    font-size: 19px;
+}
+
+.centartext{
+	text-align:center;
+	margin-top: 20px;
+	color: red;
+    text-align: center;
+    font: 30px;
+}
+
+.gltxt{
+    font-size: 18px;
+    color: #008055;
+}
+
+.sptxt{
+    font-size: 17px;
+}
+
+a:link{
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#demo1, #demo2{
+    margin: 0;
+}
+
+#demo1{
+    font-weight: bold;
+}

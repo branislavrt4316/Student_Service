@@ -1,0 +1,119 @@
+body{
+    background: #d1dffa;
+}
+.wraper{
+	width: 850px;
+	background: #eee;
+	margin: 40px auto 0 auto;
+	border: 2px black solid;
+}
+.heading{
+	height: 100px;
+	background: #b3d9ff;
+	padding: 40px;
+	text-align: center;
+	
+}
+.content{
+	min-height: 400px;
+	background: #f2f2f2;
+	width:830px;
+}
+.footer{
+	clear:both;
+	background:	#8c8c8c;
+	height:40px;
+	color: white;
+	text-align:center;
+	padding:10px;
+	
+}
+#logo{
+	position: relative;
+}
+.text1{
+	text-align: center;
+	color: red;
+	margin-bottom: 20px;
+    padding: 0 5px 0 5px;
+}
+.form1{
+	margin-top:60px;
+}
+.sidebar{
+    width: 170px;
+    height: 200px;
+	float: left;
+	background:lightblue;
+	margin-top:10px;
+	text-align: center;
+    text-decoration: none;
+}
+.box{
+	width: auto;
+    padding: 10px;
+    margin: 12px auto auto auto;
+	float: left;
+    margin-left: 10px;
+}
+
+#informacije{
+	text-decoration: none;
+    font-size: 20px;
+}
+
+#abv, #gd, #ez{
+    text-decoration: none;
+}
+
+.gltxt{
+    font-size: 18px;
+    color: #008055;
+    
+}
+
+.sptxt{
+    font-size: 17px;
+}
+
+a:link{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#demo1, #demo2{
+    margin: 0;
+}
+
+#demo1{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

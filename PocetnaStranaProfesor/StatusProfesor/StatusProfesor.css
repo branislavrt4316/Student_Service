@@ -1,0 +1,141 @@
+body{
+    background: #d1dffa;
+}
+.wraper{
+    width: 900px;
+	background: #eee;
+	margin: 40px auto 0 auto;
+	border: 2px black solid;
+}
+.heading{
+	height: 100px;
+	background: #b3d9ff;
+	padding: 40px;
+	text-align: center;
+	
+}
+.content{
+	background: #f2f2f2;
+	width: 900px;
+    height: auto;
+}
+.footer{
+	clear:both;
+	background:	#8c8c8c;
+	height:40px;
+	color: white;
+	text-align:center;
+	padding:10px;
+	
+}
+#logo{
+	position: relative;
+}
+.text1{
+	text-align:center;
+	padding: 0 5px 0 5px;
+	color:red;
+	margin-bottom: 20px;
+}
+.form1{
+	margin-top:60px;
+}
+.sidebar{
+    width: 170px;
+    height: 240px;
+	float: left;
+	background: lightblue;
+	margin-top:10px;
+	text-align: center;
+    text-decoration: none;
+}
+.box{
+    float: left;
+	width: auto;
+    padding: 10px;
+    margin: auto auto auto 10px;
+	
+}
+
+#informacije{
+	text-decoration: none;
+    font-size: 20px;
+}
+
+#abv, #gd, #ez, #abc{
+    text-decoration: none;
+}
+
+/*podesavanje tabele na sredini kontejnera*/
+
+
+table{
+    float: left;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: auto;
+    height: auto; 
+}
+
+table tr{
+    text-align: left;
+    background-color: #72a1b5;
+    color: black;
+    padding: 4px 30px 4px 8px;
+    text-align: center;
+    font-size: 14px;
+}
+table th{
+    border: 2px solid #5b5a5a;
+    padding: 4px 8px;
+}
+
+table tr:nth-child(even) th{
+    background-color: #e7edf0;
+}
+
+table th:first-child{
+    background-color: #b3d9ff;
+}
+
+#txttabela{
+    float: left;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+a:link{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

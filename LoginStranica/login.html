@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Логин страница</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css" type="text/css"> 
+    <script type="text/javascript" src="../jquery-3.3.1.js"></script>
+ 
+    <script type="text/javascript" src="../validate.js"></script>
+ 
+ <script type="text/javascript">
+      $(document).ready(function() {
+          //alert("test");
+      $("#theForm").validate();
+          $("#submit").click(function(){
+              //alert("test");
+              if($("#korime").val()=="")
+                  {
+                      alert("NIje uneto korime");
+                      return false;
+                  }
+              if($("#lozinka").val()=="")
+                  {
+                      alert("NIje uneta lozinka");
+                      return false;
+                  }
+              //alert("sve ok");
+             //$("#theForm").submit(); 
+              //var a=document.getElementById("theForm");
+              //alert(a.name);
+              //a.submit();
+          });
+      });
+    </script>
+    <script language="javascript" type="text/javascript">
+        var elementZaprikaz;
+        var interval = 1000;
+        function vreme(){
+            var vreme = new Date();
+            elementZaprikaz.innerHTML = vreme.toLocaleTimeString();
+            window.setTimeout("vreme()",interval);
+            }
+        function start(el){
+            elementZaprikaz = document.getElementById(el);
+            window.setTimeout("vreme()",interval);
+        }
+    </script>
+</head>
+
+<body onload="start('dig')">
+   <div class="wraper">
+      <div class="heading">
+	  <img src="Logo.gif" id="logo">
+	  <h2>Висока школа електротехнике и рачунарства струковних стуија</h2>
+	  </div>
+	  <div class="content">
+	   <div class="text1">
+	    <text>Сви подаци који се користе у овим формама, преузети су из базе података Студентске службе.
+        <br><br>Важно: Ако пријављивање обављате са рачунара коме приступ има више особа, након пријављивања обавезно угасите претраживач или изаберите опцију <b>Одјави</b> се како бисте избегли могућност неовлашћене измене ваших података!</text>
+	   </div>
+	    <form action="pocetna.php" method="post" align="center" class="form1"><br>
+        <input id="korime" class="required" type="text" name="korime" placeholder='Унесите корисничко име' /><br><br>
+        <input id="lozinka" class="required" type="password" name="lozinka"  placeholder='Унесите лозинку' /><br><br>
+        <input id="submit" type="submit" name="submit" value="Пошаљи" /><br><br>
+       </form>
+          
+              
+              
+              <center>
+                  <h2 id="dig"></h2>
+              </center>
+              
+              
+              
+         
+	  </div>
+	  <div class="footer">
+	  <p>&copy; 2017 Висока школа електротехнике и рачунарства струковних студија, Војводе Степе 283, Београд</p>
+	  </div>
+   </div>
+   
+   
+   
+</body>
+
+</html>

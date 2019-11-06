@@ -1,0 +1,94 @@
+body{
+    background: #d1dffa;
+}
+.wraper{
+	width: 850px;
+    height: auto;
+	background: #eee;
+	margin: 40px auto 0 auto;
+	border: 2px black solid;
+}
+.heading{
+	height: 100px;
+	background: #b3d9ff;
+	padding: 40px;
+	text-align: center;
+	
+}
+.content{
+    height: auto;
+	background: #f2f2f2;
+	width: 850px;
+}
+.footer{
+	clear:both;
+	background:	#8c8c8c;
+	height:40px;
+	color: white;
+	text-align:center;
+	padding:10px;
+	
+}
+#logo{
+	position: relative
+}
+.text1{
+	text-align: center;
+	margin-top: 20px;
+	color: red;
+}
+.form1{
+	margin-top: 60px;
+    margin-left: 400px;
+}
+
+.sidebar{
+    float: left;
+    width: 160px;
+    height: 280px;
+	background: lightblue;
+	margin-top: 10px;
+	text-align: center; 
+}
+
+.izbor{
+    float: right;
+    margin-right: 450px;
+    margin-top: 40px;
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#inform{
+    font-size: 19px;
+}
+
+#dugmeodjava{
+    margin-bottom: 7px;
+}
+
+a:link{
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+

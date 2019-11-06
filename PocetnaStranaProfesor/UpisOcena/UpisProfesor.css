@@ -1,0 +1,143 @@
+body{
+    background: #d1dffa;
+}
+.wraper{
+	width: 900px;
+    height: auto;
+	background: #eee;
+	margin: 40px auto 0 auto;
+	border: 2px black solid;
+}
+.heading{
+	height: 100px;
+	background: #b3d9ff;
+	padding: 40px;
+	text-align: center;
+	
+}
+.content{
+    height: auto;
+	background: #f2f2f2;
+	width: 900px;
+}
+.footer{
+	clear:both;
+	background:	#8c8c8c;
+	height: 40px;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	
+}
+#logo{
+	position: relative;
+}
+.text1{
+	text-align:center;
+	margin-top: 20px;
+	color:red;
+	margin-bottom: 20px;
+    padding: 0 5px 0 5px;
+}
+
+#forma1{
+    margin-left: 30px;
+}
+
+.sidebar{
+    width: 160px;
+    height: 238px;
+	float: left;
+	background:lightblue;
+	margin-top:10px;
+	text-align: center;
+    text-decoration: none;
+}
+.box{
+	width: 700px;
+    padding: 10px;
+    margin: 12px auto auto auto;
+	float: left;
+	height: auto;
+}
+
+#informacije{
+	text-decoration: none;
+    font-size: 20px;
+}
+
+#abv, #gd, #ez, #abc{
+    text-decoration: none;
+}
+
+a:link{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#txttabela{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+/*podesavanje tabele na sredini kontejnera*/
+
+
+table{
+    float: left;
+    border-collapse: collapse;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+table tr{
+    text-align: center;
+    background-color: #72a1b5;
+    color: black;
+    padding: 4px 30px 4px 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+table td{
+    border: 2px solid #5b5a5a;
+    padding: 4px 8px;
+}
+
+table tr:nth-child(even) td{
+    background-color: #e7edf0;
+}
+
+table tr:first-child{
+    background-color: #b3d9ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

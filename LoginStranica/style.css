@@ -1,0 +1,43 @@
+body{
+    background: #d1dffa;
+}
+.wraper{
+	width: 850px;
+	background: #eee;
+	margin: 40px auto 0 auto;
+	border: 2px black solid;
+}
+.heading{
+	height: 100px;
+	background: #b3d9ff;
+	padding: 40px;
+	text-align: center;
+	
+}
+.content{
+	min-height:400px;
+	background: #f2f2f2;
+	width:850px;
+}
+.footer{
+	clear:both;
+	background:	#8c8c8c;
+	height:40px;
+	color:white;
+	text-align:center;
+	padding:10px;
+	
+}
+#logo{
+	height: ;
+	
+}
+.text1{
+	text-align:center;
+	margin-top: 20px;
+	color:red;
+}
+.form1{
+	margin-top:60px;
+    text-align: center;
+}
